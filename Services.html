@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Services</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background-color: #004466;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        header nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        header nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        header nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        section {
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        section h1 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        section p {
+            font-size: 1.1em;
+            color: #666;
+            margin-bottom: 40px;
+        }
+
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 30px;
+            margin-top: 20px;
+        }
+
+        .service-card {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .service-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .service-card h3 {
+            font-size: 1.5em;
+            color: #333;
+            margin-bottom: 15px;
+        }
+
+        .service-card p {
+            font-size: 1em;
+            color: #666;
+        }
+
+        footer {
+            text-align: center;
+            background-color: #004466;
+            color: white;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="hobbies.html">Hobbies</a></li>
+                <li><a href="favorite media.html">Favorite Media</a></li> 
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <h1>Our Services</h1>
+        <p>We offer a wide range of services to help your business grow. Whether you need technical expertise, creative design, or strategic guidance, we've got you covered.</p>
+
+        <div class="services-grid">
+            <div class="service-card">
+                <h3>Web Development</h3>
+                <p>Our team of experienced developers builds scalable and responsive websites that drive results. We specialize in creating modern, high-performance web applications.</p>
+            </div>
+
+            <div class="service-card">
+                <h3>Graphic Design</h3>
+                <p>Our design team crafts visually stunning designs for websites, logos, branding, and marketing materials. We ensure that your business stands out and leaves a lasting impression.</p>
+            </div>
+
+            <div class="service-card">
+                <h3>SEO Optimization</h3>
+                <p>We help businesses improve their online presence through strategic SEO practices. Get better rankings, more traffic, and improved visibility on search engines like Google.</p>
+            </div>
+
+            <div class="service-card">
+                <h3>Consulting</h3>
+                <p>We provide expert consulting services to help businesses streamline their operations, enhance productivity, and plan for future growth. Let us guide your next steps.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Your Company. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>

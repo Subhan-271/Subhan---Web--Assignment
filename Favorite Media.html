@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Favorite Media</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f4f4f4;
+    }
+    header {
+      background-color: #004466;
+      color: white;
+      padding: 15px 0;
+      text-align: center;
+      position: sticky;
+      top: 0;
+      width: 100%;
+      z-index: 1000;
+    }
+    header h1 {
+      margin: 10px 0;
+      font-size: 28px;
+    }
+    nav {
+      margin-top: 10px;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-size: 18px;
+      transition: color 0.3s;
+    }
+    nav a:hover {
+      color: #ffcc00;
+    }
+    .container {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+      padding: 20px;
+      margin-top: 20px;
+      margin-bottom: 80px;
+    }
+    .media-section {
+      background: #fff;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    .media-section h2 {
+      color: #444;
+      border-bottom: 2px solid #eee;
+      padding-bottom: 10px;
+      margin-bottom: 20px;
+    }
+    .media-section img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      margin-bottom: 20px;
+      border-radius: 8px;
+    }
+    .video-list iframe {
+      width: 100%;
+      height: 200px;
+      margin-bottom: 20px;
+      border-radius: 8px;
+    }
+    footer {
+      background-color: #004466;
+      color: white;
+      padding: 15px 0;
+      text-align: center;
+      font-size: 16px;
+      width: 100%;
+      bottom: 0;
+      left: 0;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+   
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="services.html">Services</a>
+      <a href="hobbies.html">Hobbies</a>
+      <a href="favorite media.html">Favorite Media</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <div class="container">
+    <!-- Left Side: Social Media/Images -->
+    <div class="media-section">
+      <h2>Favorite Social Media Posts</h2>
+      <img src="car-cars-lamborghini-aventador-63764.jpg" alt="Car Pic">
+      <img src="Nature-Wallpaper.jpg" alt="Nature">
+      <img src="https://cdn.pixabay.com/photo/2015/12/01/20/28/road-1072823_1280.jpg" alt="Nature Image">
+      <img src="Science-Technology-shutterstock_449187505.jpg" alt="Technology">
+      <img src="01b6fb910f617f1461d63aca5faa9d73.jpg" alt="Home">
+    </div>
+
+    <!-- Right Side: YouTube Videos -->
+    <div class="media-section video-list">
+      <h2>My Favorite YouTube Videos</h2>
+      <iframe src="https://www.youtube.com/embed/HcOc7P5BMi4" allowfullscreen></iframe>
+      <iframe src="https://www.youtube.com/embed/tqL5OOTycMo" allowfullscreen></iframe>
+      <iframe src="https://www.youtube.com/embed/X8BYu3dMKf0" allowfullscreen></iframe>
+      <iframe src="https://www.youtube.com/embed/Pf_oGJE1vDc" allowfullscreen></iframe>
+      <iframe src="https://www.youtube.com/embed/ESnrn1kAD4E" allowfullscreen></iframe>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 My Favorite Media. All Rights Reserved.</p>
+  </footer>
+
+</body>
+</html>

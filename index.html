@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Welcome to our Home Page - Learn about our services, team, and contact details.">
+  <title>Home | My Awesome Website</title>
+  <link rel="icon" type="image/png" href="favicon.png"> <!-- Make sure you have favicon.png in your folder -->
+  
+  <!-- Inline styles for layout and basic design -->
+  <style>
+    /* General Body Styling */
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+      color: #333;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh; /* Ensures footer stays at the bottom */
+    }
+
+    /* Header Styling */
+    header {
+      background-color: #004466;
+      color: white;
+      height: 100px;
+      display: flex;
+      justify-content: center; /* Centers nav horizontally */
+      align-items: center; /* Centers nav vertically */
+      padding: 0 1em;
+    }
+
+    /* Navigation Styling */
+    nav {
+      display: flex;
+      justify-content: center; /* Centers the links within the nav */
+      gap: 1em; /* Adds space between links */
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      padding: 0.5em 1em;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    /* Main Content Styling */
+    main {
+      padding: 2em;
+      flex-grow: 1; /* This ensures main content grows to take up remaining space */
+    }
+
+    section {
+      margin-bottom: 2em;
+    }
+
+    h1, h2 {
+      color: #004466;
+      margin: 0.2em 0;
+    }
+
+    /* Footer Styling */
+    footer {
+      background-color: #004466;
+      color: white;
+      height: 100px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 0 1em;
+      margin-top: auto; /* This pushes footer to the bottom */
+    }
+
+    footer p {
+      margin: 0.5em 0 0 0;
+    }
+  </style>
+
+</head>
+<body>
+
+  <!-- Header with site title and nav -->
+  <header>
+    <nav>
+      <a href="index.html">Home</a> <!-- Link to Home Page -->
+      <a href="about.html">About</a> <!-- Link to About Page -->
+      <a href="services.html">Services</a>
+      <a href="hobbies.html">Hobbies</a>
+      <a href="favorite media.html">Favorite Media</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <section id="intro">
+    <h2>Introduction</h2>
+    <p><strong>Welcome to our company</strong>, we are passionate about creating innovative digital solutions that help businesses thrive in the online world. Founded in 2025, we specialize in <strong>web development</strong>, <strong>graphic design</strong>, <strong>SEO optimization</strong>, and <strong>consulting services</strong>, providing businesses with the tools they need to succeed and grow.</p>
+  </section>
+
+  <section id="why-choose-us">
+    <h2>Why Choose Us?</h2>
+    <ul>
+      <li><strong>Expertise:</strong> A team of dedicated professionals with a wide range of experience.</li>
+      <li><strong>Innovation:</strong> Creative solutions that help your business stand out in a crowded digital world.</li>
+      <li><strong>Customer Focus:</strong> We work closely with you to understand your goals and deliver results that exceed expectations.</li>
+    </ul>
+  </section>
+
+  <section id="mission">
+    <h2>Our Mission</h2>
+    <p>To provide businesses of all sizes with top-tier digital solutions that drive growth, improve user experience, and ensure long-term success.</p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
